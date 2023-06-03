@@ -28,31 +28,23 @@ let resumeData = {
   "education": [
     {
       "UniversityName": "Medicaps University",
-      "Course": "Information Technology",
-      "CGPA": "8.76"
+      "specialization": "Information Technology",
+      "YearOfPassing": "2025",
+      "Achievements": "8.76"
     },
     {
-      "UniversityName": "Some University",
-      "specialization": "Some specialization",
-      "MonthOfPassing": "Jan",
-      "YearOfPassing": "2018",
-      "Achievements": "Some Achievements"
+      "UniversityName": "Christ Church Convent",
+      "specialization": "High Schooling",
+      "YearOfPassing": "2021",
+      "Achievements": "93.4%"
     }
   ],
   "work": [
     {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
+      "CompanyName": "ACM Medicaps University",
+      "specialization": "Technical Team Lead",
       "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
-      "Achievements": "Some Achievements"
-    },
-    {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
-      "Achievements": "Some Achievements"
+      "YearOfLeaving": "2023",
     }
   ],
   "skillsDescription": "Your skills here",
@@ -126,7 +118,6 @@ let resumeData = {
       "description": "Platform to classify e-waste into different classes.",
       "imgurl": "images/portfolio/dp.PNG",
       "githubLink": "https://github.com/Akshat103/E-Waste_Sorter_app",
-      "projectLink": "#"
     },
     {
       "name": "Data Entry",
@@ -140,7 +131,6 @@ let resumeData = {
       "description": "On new year everyone is curious about their future and has so much hopes for it. Also it inspired by fortune cookies concept of giving a hint of future.",
       "imgurl": "images/portfolio/handsel.jpg",
       "githubLink": "https://github.com/Akshat103/Handsel",
-      "projectLink": "#"
     },
     {
       "name": "Notes",
@@ -156,16 +146,6 @@ let resumeData = {
       "githubLink": "https://github.com/Akshat103/Diseases_Prediction_App",
       "projectLink": "https://diseases-prediction-system.streamlit.app/"
     },
-  ],
-  "testimonials": [
-    {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
-    },
-    {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
-    }
   ]
 }
 
