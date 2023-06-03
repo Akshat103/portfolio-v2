@@ -4,7 +4,7 @@ let resumeData = {
   "role": "Web developer and Data Enthusiast",
   "linkedinId": "Your LinkedIn Id",
   "skypeid": "Your skypeid",
-  "roleDescription": " I like dabbling in project in fusing the design and coding arts to create immersive and compelling user projects through effective website creation, proactive feature optimization, and persistent debugging.",
+  "roleDescription": " Are you ready to take your business to the next level? Look no further! Unlock your business potential with a skilled web developer. I offer captivating designs, seamless functionality, and tailored solutions that elevate your online presence.",
   "socialLinks": [
     {
       "name": "linkedin",

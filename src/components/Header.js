@@ -25,16 +25,17 @@ export default class Header extends Component {
           <div className="row banner">
           <ParticleBackground />
             <div className="banner-text">
-              <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>I am a {resumeData.role}.{resumeData.roleDescription}
-              </h3>
+              <h1 className="responsive-headline">{resumeData.name}</h1>
+              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>{resumeData.role}</h3>
+              <br></br>
+              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>{resumeData.roleDescription}</h3>
               <hr />
               <ul className="social" style={{ position:"relative", zIndex:"9999" }}>
                 {
                   resumeData.socialLinks && resumeData.socialLinks.map(item => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                        <a href={item.url} target="_blank" rel="noreferrer"><i className={item.className}></i></a>
                       </li>
                     )
                   }

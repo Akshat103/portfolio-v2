@@ -213,11 +213,6 @@ ul#nav li a:active {
    background-color: transparent !important;
 }
 
-ul#nav li.current a {
-   color: #F06000;
-}
-
-
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -269,7 +264,7 @@ ul#nav li.current a {
    display: inline-block;
    position: relative;
    padding: 0px 25px;
-   background-color: #4CC713;
+   background-color: #fdd41d;
    color: white;
    font-family: sans-serif;
    text-decoration: none;
@@ -280,7 +275,7 @@ ul#nav li.current a {
 }
 
 .buttonDownload:hover {
-   background-color: #45a21a;
+   background-color: #fdd835;
    color: white;
 }
 
@@ -314,11 +309,12 @@ ul#nav li.current a {
 }
 
 .buttonDownload:hover:before {
-   border-color: #cdefbd;
+   border-color: #fcefb7;
+   ;
 }
 
 .buttonDownload:hover:after {
-   border-top-color: #cdefbd;
+   border-top-color: #fcefb7;
    animation-play-state: running;
 }
 
@@ -834,7 +830,7 @@ call-to-action .button {
    border: none;
    justify-content: center;
    align-items: center;
-   height: 60vh;
+   height: 70vh;
  }
  
  .illustration {
@@ -1027,6 +1023,11 @@ call-to-action .button {
      }
 
  }
+
+ .active {
+   background-color: yellow;
+ }
+ 
 
  /* Message Button */
 

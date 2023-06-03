@@ -11,6 +11,7 @@ export default class Porfolio extends Component {
         <div className="portfolio-items">
           {resumeData.portfolio &&
             resumeData.portfolio.map((item) => (
+
               <div key={item.name} className="portfolio-item">
                 <div className="item-wrap">
                   <img src={item.imgurl} alt={item.name} className="item-img" />
@@ -34,6 +35,7 @@ export default class Porfolio extends Component {
                   </div>
                 </div>
               </div>
+
             ))}
         </div>
 
