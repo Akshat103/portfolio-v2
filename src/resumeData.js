@@ -107,7 +107,7 @@ let resumeData = {
       "projectLink": "https://inventory-management-pi.vercel.app"
     },
     {
-      "name": "Technicam Tambola",
+      "name": "Technical Tambola",
       "description": "A web-based platform for playing Tambola where players can log in and receive their unique tickets to play Tambola.",
       "imgurl": "images/portfolio/techtam.png",
       "githubLink": "https://github.com/Akshat103/Technical_Tambola",
@@ -140,7 +140,7 @@ let resumeData = {
       "projectLink": "https://akshat103.github.io/Notes-app/"
     },
     {
-      "name": "Diabetes Prediction",
+      "name": "Diseases Prediction",
       "description": "Web application made using three prediction models.",
       "imgurl": "images/portfolio/dpml.PNG",
       "githubLink": "https://github.com/Akshat103/Diseases_Prediction_App",

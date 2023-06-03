@@ -38,7 +38,7 @@ export default class About extends Component {
                            </span>
                            <br></br>
                            <span>
-                              <a href='https://drive.google.com/uc?export=download&id=1Bs0sL1zt0nm_6sKrJ4t3a8I09TPXw34k'><button class="buttonDownload">Download</button></a>
+                              <a href='https://drive.google.com/uc?export=download&id=1Bs0sL1zt0nm_6sKrJ4t3a8I09TPXw34k'><button class="buttonDownload">Resume</button></a>
                            </span>
                         </p>
                      </div>
