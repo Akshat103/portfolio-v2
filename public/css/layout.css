@@ -411,32 +411,40 @@ ul#nav li a:active {
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
 .skills {
    display: flex;
    flex-wrap: wrap;
-}
-
-.skill-icon {
+   justify-content: center;
+ }
+ 
+ .skill-icon {
    width: 15%;
    padding: 10px;
    box-sizing: border-box;
    position: relative;
-}
-
-.skill-icon img {
-   width: 100%;
-   height: auto;
-   transition: transform 0.3s;
-}
-
-.skill-icon:hover img {
-   transform: scale(1.05);
-}
-
-.skill-icon:hover .skill-name {
    opacity: 1;
-}
-
+   animation: float 3s infinite;
+   cursor: pointer;
+   transition: transform 0.3s;
+ }
+ 
+ .skill-icon img {
+   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+ }
+ 
+ @keyframes float {
+   0% {
+     transform: translateY(0);
+   }
+   50% {
+     transform: translateY(-5px);
+   }
+   100% {
+     transform: translateY(0);
+   }
+ }
+ 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -831,9 +839,9 @@ call-to-action .button {
    justify-content: center;
    align-items: center;
    height: 70vh;
- }
- 
- .illustration {
+}
+
+.illustration {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -841,197 +849,77 @@ call-to-action .button {
    justify-content: center;
    flex: 1;
    padding-right: 1.25rem;
- }
- 
- .illustration img {
+}
+
+.illustration img {
    max-width: 300%;
    height: auto;
    margin-bottom: 4rem;
- }
- 
- .illustration h3 {
+}
+
+.illustration h3 {
    font-size: 3rem;
- }
- 
- .contact-form {
+}
+
+.contact-form {
    border-radius: 0;
    background-color: #ffffff;
    padding: 2rem;
- }
- 
- .contact-form form {
+}
+
+.contact-form form {
    display: flex;
    flex-direction: column;
- }
- 
- .form-row {
+}
+
+.form-row {
    display: flex;
    justify-content: space-between;
    margin-bottom: 1.25rem;
- }
- 
- .form-column {
+}
+
+.form-column {
    flex-basis: 48%;
    margin-right: 0.625rem;
- }
- 
- .form-container {
+}
+
+.form-container {
    flex: 1;
    border: none;
- }
- 
- .form-column label {
+}
+
+.form-column label {
    margin-bottom: 0.625rem;
    font-weight: bold;
- }
- 
- .form-column input {
+}
+
+.form-column input {
    width: 100%;
    padding: 8px;
    border: 1px solid #ddd;
    border-radius: 4px;
- }
- 
- .message-div label {
+}
+
+.message-div label {
    margin-bottom: 10px;
    font-weight: bold;
- }
- 
- .message-div textarea {
+}
+
+.message-div textarea {
    width: 100%;
    height: 70px;
    padding: 2px;
    border: 1px solid #ddd;
    border-radius: 4px;
- }
- 
- /* Media Queries */
- @media (max-width: 320px) {
-   /* Mobile S */
-   .illustration {
-     display: none;
-   }
+}
 
-   .contact-form {
-      padding: 1rem;
-    }
-  
-    .form-row {
-      flex-wrap: wrap;
-    }
-  
-    .form-column {
-      flex-basis: 100%;
-      margin-right: 0;
-    }
-    .contact-form::before {
-       content: "Send me a Message";
-     font-weight: bold;
-     font-size: 2.5rem;
-     margin-left: 10%;
-     color: #0D0D0D;
-     margin-bottom: 1rem;
-     }
- 
-     .contact-container{
-       height: 80vh;
-    }
-
- }
- 
- @media (min-width: 321px) and (max-width: 375px) {
-   /* Mobile M */
-   .illustration {
-      display: none;
-    }
- 
-    .contact-form {
-       padding: 1rem;
-     }
-   
-     .form-row {
-       flex-wrap: wrap;
-     }
-   
-     .form-column {
-       flex-basis: 100%;
-       margin-right: 0;
-     }
-     .contact-form::before {
-        content: "Send me a Message";
-      font-weight: bold;
-      font-size: 2.5rem;
-      margin-left: 15%;
-      color: #0D0D0D;
-      margin-bottom: 1rem;
-      }
-  
-      .contact-container{
-        height: 80vh;
-     }
- }
- 
- @media (min-width: 376px) and (max-width: 425px) {
-   /* Mobile */
-   .illustration {
-      display: none;
-    }
- 
-    .contact-form {
-       padding: 1rem;
-     }
-   
-     .form-row {
-       flex-wrap: wrap;
-     }
-   
-     .form-column {
-       flex-basis: 100%;
-       margin-right: 0;
-     }
-     .contact-form::before {
-        content: "Send me a Message";
-      font-weight: bold;
-      font-size: 2.5rem;
-      margin-left: 20%;
-      color: #0D0D0D;
-      margin-bottom: 1rem;
-      }
-  
-      .contact-container{
-        height: 80vh;
-     }
- }
- 
- @media (min-width: 426px) and (max-width: 768px) {
-   /* Tablet */
-    .contact-form {
-       padding: 1rem;
-     }
-   
-     .form-row {
-       flex-wrap: wrap;
-     }
-   
-     .form-column {
-       flex-basis: 100%;
-       margin-right: 0;
-     }
- 
-      .contact-container{
-        height: 80vh;
-     }
-
- }
-
- .active {
+.active {
    background-color: yellow;
- }
- 
+}
 
- /* Message Button */
+/* Message Button */
 
- .contact-form button {
+.contact-form button {
    display: flex;
    margin-top: 0.5rem;
    width: 22rem;
@@ -1050,44 +938,44 @@ call-to-action .button {
    position: relative;
    overflow: hidden;
    transition: all .5s ease;
- }
- 
- .contact-form button:active {
+}
+
+.contact-form button:active {
    transform: scale(.9);
    transition: all 100ms ease;
- }
- 
- .contact-form button svg {
+}
+
+.contact-form button svg {
    transition: all .5s ease;
    z-index: 2;
- }
- 
- .contact-form .play {
+}
+
+.contact-form .play {
    transition: all .5s ease;
    transition-delay: 300ms;
- }
- 
- .contact-form button:hover svg {
+}
+
+.contact-form button:hover svg {
    transform: scale(3) translate(50%);
- }
- 
- .contact-form .now {
+}
+
+.contact-form .now {
    position: absolute;
    left: 0;
    transform: translateX(-100%);
    transition: all .5s ease;
    z-index: 2;
- }
- 
- .contact-form button:hover .now {
+}
+
+.contact-form button:hover .now {
    transform: translateX(10px);
    transition-delay: 300ms;
- }
- 
- .contact-form button:hover .play {
+}
+
+.contact-form button:hover .play {
    transform: translateX(200%);
    transition-delay: 300ms;
- }
+}
 
 /* Twitter Feed */
 #twitter {

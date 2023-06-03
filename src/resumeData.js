@@ -30,7 +30,7 @@ let resumeData = {
       "UniversityName": "Medicaps University",
       "specialization": "Information Technology",
       "YearOfPassing": "2025",
-      "Achievements": "8.76"
+      "Achievements": "8.76 (latest)"
     },
     {
       "UniversityName": "Christ Church Convent",

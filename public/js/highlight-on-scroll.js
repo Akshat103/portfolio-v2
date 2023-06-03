@@ -26,4 +26,3 @@ document.addEventListener('DOMContentLoaded', () => {
   
     window.addEventListener('scroll', highlightNavLink);
   });
-  

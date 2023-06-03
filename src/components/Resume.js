@@ -66,7 +66,7 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
 
             <div>
-              <ul className="skills">
+              <ul className="skills" id="skills-container">
                 {resumeData.skills &&
                   resumeData.skills.map((skill, index) => (
                     <div key={skill.skillname} className="skill-icon">
