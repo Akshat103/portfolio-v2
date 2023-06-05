@@ -117,7 +117,7 @@ let resumeData = {
       "name": "Dumply",
       "description": "Platform to classify e-waste into different classes.",
       "imgurl": "images/portfolio/dp.PNG",
-      "githubLink": "https://github.com/Akshat103/E-Waste_Sorter_app",
+      "githubLink": "https://github.com/Akshat103/Dumply",
     },
     {
       "name": "Data Entry",
