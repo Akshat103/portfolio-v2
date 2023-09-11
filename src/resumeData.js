@@ -23,14 +23,14 @@ let resumeData = {
     }
   ],
   "aboutme": "I am currently a pre-final year student at Medicaps University and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer also diving deeper into Machine Learning. I am a motivated, teamwork-oriented, and responsible Data Analyst with significant experience in increasing comprehension of reports and presentations.",
-  "address": "India",
-  "website": "https://akshat103.github.io/Portfolio/",
+  "address": "Indore, Madhya Pradesh, India",
+  "website": "https://akshattamrakar.vercel.com",
   "education": [
     {
       "UniversityName": "Medicaps University",
       "specialization": "Information Technology",
       "YearOfPassing": "2025",
-      "Achievements": "8.76 (latest)"
+      "Achievements": "8.88 (latest)"
     },
     {
       "UniversityName": "Christ Church Convent",
@@ -41,9 +41,15 @@ let resumeData = {
   ],
   "work": [
     {
+      "CompanyName": "Stolid",
+      "specialization": "Internship",
+      "MonthOfLeaving": "June-July",
+      "YearOfLeaving": "2023",
+    },
+    {
       "CompanyName": "ACM Medicaps University",
       "specialization": "Technical Team Lead",
-      "MonthOfLeaving": "Jan",
+      "MonthOfLeaving": "Jan-Sept",
       "YearOfLeaving": "2023",
     }
   ],
@@ -99,6 +105,12 @@ let resumeData = {
     },
   ],
   "portfolio": [
+    {
+      "name": "TenderBig",
+      "description": "List tenders and apply for various tenders.",
+      "imgurl": "images/portfolio/tenderbig.png",
+      "projectLink": "https://tenderbig.com"
+    },
     {
       "name": "Inventory Management",
       "description": "Inventory management system to manage inventory by multiple users in a secure and efficient manner.",
