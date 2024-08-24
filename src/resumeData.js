@@ -2,9 +2,9 @@ let resumeData = {
   "imagebaseurl": "https://akshat103.github.io/Portfolio/",
   "name": "Akshat Tamrakar",
   "role": "Web developer and Data Enthusiast",
-  "linkedinId": "Your LinkedIn Id",
-  "skypeid": "Your skypeid",
   "roleDescription": " Are you ready to take your business to the next level? Look no further! Unlock your business potential with a skilled web developer. I offer captivating designs, seamless functionality, and tailored solutions that elevate your online presence.",
+  "mail":"akshattamrakar.work@gmail.com",
+  resume_url:"https://drive.usercontent.google.com/u/0/uc?id=1W5dBcLxZGsB5aUcPZ2sEmrcPCi00HGsP&export=download",
   "socialLinks": [
     {
       "name": "linkedin",
@@ -30,7 +30,7 @@ let resumeData = {
       "UniversityName": "Medicaps University",
       "specialization": "Information Technology",
       "YearOfPassing": "2025",
-      "Achievements": "8.88 (latest)"
+      "Achievements": "8.7 (latest)"
     },
     {
       "UniversityName": "Christ Church Convent",
@@ -54,56 +54,43 @@ let resumeData = {
     }
   ],
   "skillsDescription": "Your skills here",
-  "skills": [
+  skills: [
     {
-      "skillname": "HTML",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      category: "Languages",
+      skillsList: ["C++", "Javascript", "Java", "Python", "SQL"],
     },
     {
-      "skillname": "C++",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+      category: "Libraries/Frameworks",
+      skillsList: [
+        "React",
+        "NodeJS",
+        "Express",
+        "Hadoop",
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+      ],
     },
     {
-      "skillname": "Javascript",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      category: "Databases",
+      skillsList: ["MongoDB", "MySQL", "Redis"],
     },
     {
-      "skillname": "Python",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      category: "Platforms/Tools",
+      skillsList: [
+        "Netlify",
+        "GitHub Pages",
+        "Vercel",
+        "Git",
+        "Databricks",
+        "Sqoop",
+        "Hive",
+        "Azure Container",
+        "AWS S3",
+        "AWS EC2",
+      ],
     },
-    {
-      "skillname": "Java",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-    },
-    {
-      "skillname": "Bootstrap",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
-    },
-    {
-      "skillname": "Reactjs",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-    },
-    {
-      "skillname": "Nodejs",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-    },
-    {
-      "skillname": "Expressjs",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
-    },
-    {
-      "skillname": "MongoDB",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-    },
-    {
-      "skillname": "Mysql",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-    },
-    {
-      "skillname": "Git",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-    },
-  ],
+  ],  
   "portfolio": [
     {
       "name": "TenderBig",

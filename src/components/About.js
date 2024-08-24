@@ -34,11 +34,11 @@ export default class About extends Component {
                            </span>
                            <br></br>
                            <span>
-                           <a href="mailto:akshattamrakar.work@gmail.com">akshattamrakar.work@gmail.com</a>
+                           <a href={`mailto:${resumeData.mail}`}>{resumeData.mail}</a>
                            </span>
                            <br></br>
                            <span>
-                              <a href='https://drive.google.com/uc?export=download&id=1i0A7mp5QTObibEEFIn5n_i44perX4QBr'><button class="buttonDownload">Resume</button></a>
+                              <a href={resumeData.resume_url}><button class="buttonDownload">Resume</button></a>
                            </span>
                         </p>
                      </div>

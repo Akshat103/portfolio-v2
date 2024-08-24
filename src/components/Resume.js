@@ -64,20 +64,25 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-
             <div>
-              <ul className="skills" id="skills-container">
-                {resumeData.skills &&
-                  resumeData.skills.map((skill, index) => (
-                    <div key={skill.skillname} className="skill-icon">
-                      <img src={skill.image} alt={skill.skillname} />
-                    </div>
-                  ))}
-              </ul>
+              {resumeData.skills && (
+                <>
+                  <p>
+                    <strong className="info">Languages:</strong> {resumeData.skills[0].skillsList.join(", ")}
+                  </p>
+                  <p>
+                    <strong className="info">Libraries/Frameworks:</strong> {resumeData.skills[1].skillsList.join(", ")}
+                  </p>
+                  <p>
+                    <strong className="info">Databases:</strong> {resumeData.skills[2].skillsList.join(", ")}
+                  </p>
+                  <p>
+                    <strong className="info">Platforms/Tools:</strong> {resumeData.skills[3].skillsList.join(", ")}
+                  </p>
+                </>
+              )}
             </div>
-
           </div>
-
         </div>
 
       </section>
